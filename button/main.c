@@ -33,20 +33,7 @@ int main(void)
        
 
   while(1){
-#ifdef LED0_ON
-        LED0_ON;
-        dumb_delay(DELAY_LONG);
-        LED0_OFF;
-        dumb_delay(DELAY_LONG);
-        LED0_TOGGLE;
-        dumb_delay(DELAY_SHORT);
-        LED0_TOGGLE;
-        dumb_delay(DELAY_SHORT);
-        LED0_TOGGLE;
-        dumb_delay(DELAY_SHORT);
-        LED0_TOGGLE;
-        dumb_delay(DELAY_LONG);
-#endif
+
 }
 
     return 0;
